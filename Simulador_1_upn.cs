@@ -85,7 +85,7 @@ public class Simulador_1_upn
             Console.WriteLine("Descuento: No Aplica");
         }
         Console.WriteLine("------------------------------------------");
-        Console.WriteLine("TARIFA FINAL: S/ " + tarifaFinal);
+        Console.WriteLine("LA FINAL TARIFA ES: S/ " + tarifaFinal);
         Console.WriteLine("===============================================");
     }
 }
