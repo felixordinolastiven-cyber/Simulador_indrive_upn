@@ -72,20 +72,20 @@ public class Simulador_1_upn
         tarifaFinal = Math.Max(subtotal, 5.00);
         tarifaFinal = Math.Round(tarifaFinal, 2);
         // Salida - Resumen del Viaje
-        Console.WriteLine("\n===============================================");
+        Console.WriteLine("\n==========================================");
         Console.WriteLine("         RESUMEN DEL VIAJE");
-        Console.WriteLine("===============================================");
+        Console.WriteLine("==========================================");
         Console.WriteLine("Pasajero: " + nombre);
         Console.WriteLine("Vehículo: " + nombreVehiculo);
         Console.WriteLine("Distancia: " + distancia + " km");
-        Console.WriteLine("Hora Pico: " + (esHoraPico?"Sí (+30%)":"No")); // inline if -> condicional?es verdad: es falso; 
+        Console.WriteLine("Hora Pico: " + (esHoraPico?"Sí (+30%)":"No")); // inline if -> condicional?es verdad: es falso;
         if(descuento > 0){
             Console.WriteLine("Descuento: S/ " + Math.Round(descuento, 2));
         }else{
             Console.WriteLine("Descuento: No Aplica");
         }
         Console.WriteLine("------------------------------------------");
-        Console.WriteLine("LA FINAL TARIFA ES: S/ " + tarifaFinal);
-        Console.WriteLine("===============================================");
+        Console.WriteLine("LA TARIFA FINAL ES: S/ " + tarifaFinal);
+        Console.WriteLine("==========================================");
     }
 }
